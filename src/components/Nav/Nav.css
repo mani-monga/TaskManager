@@ -1,0 +1,37 @@
+nav.navbar {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 4px 20px 14px #d4d4d4;
+  align-items: center;
+  z-index: 100;
+}
+
+div.navTitle {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+div.navCTAWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+div.navCTAWrapper button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid blue;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+div.navCTAWrapper button:hover {
+  background-color: white;
+  color: blue;
+}

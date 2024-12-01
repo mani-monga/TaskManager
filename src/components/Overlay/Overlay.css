@@ -1,0 +1,10 @@
+.overlayWrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #c9c9c9cf;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transform-origin: top;
+}

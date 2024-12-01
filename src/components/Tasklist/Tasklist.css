@@ -1,0 +1,23 @@
+.TaskListColWrapper {
+    min-width: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px 10px;
+    /* border: 1px solid #d7d7d7; */
+    overflow-y: scroll;
+    box-shadow: 0px 0px 15px #c4c4c4;
+    margin: 0 20px;
+}
+
+.TaskListWrap {
+    width: 100%;
+}
+
+.TaskListColHeader {
+    padding-bottom: 5px;
+}

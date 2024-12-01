@@ -1,0 +1,123 @@
+[
+    {
+        "columnOrder": 1,
+        "status": "Pending",
+        "accentColor": "#00ffe7",
+        "taskList": [
+            {
+                "id": "nOau9VPswcvHlmF",
+                "title": "Review Design Mockups",
+                "description": "Provide feedback on the latest design mockups from the design team.",
+                "tags": [
+                    "design",
+                    "feedback",
+                    "UI/UX"
+                ]
+            },
+            {
+                "id": "xUdresbUy6ZJYVv",
+                "title": "Write User Documentation",
+                "description": "Draft user documentation for the new software release.",
+                "tags": [
+                    "documentation",
+                    "writing",
+                    "software"
+                ]
+            },
+            {
+                "id": "PVBb21skYff8YE5",
+                "title": "Prepare Quarterly Report",
+                "description": "Compile data and insights for the quarterly report to stakeholders.",
+                "tags": [
+                    "report",
+                    "data",
+                    "stakeholders"
+                ]
+            }
+        ]
+    },
+    {
+        "columnOrder": 2,
+        "status": "In Progress",
+        "accentColor": "#8c00ff",
+        "taskList": [
+            {
+                "id": "VLNyV8gKzqnl7Fp",
+                "title": "Complete Project Proposal",
+                "description": "Write and finalize the project proposal for client approval.",
+                "tags": [
+                    "proposal",
+                    "client",
+                    "approval"
+                ]
+            },
+            {
+                "id": "Rf1GLYt8ZT3Glc4",
+                "title": "Prepare Presentation Slides",
+                "description": "Create slides for the upcoming client presentation.",
+                "tags": [
+                    "presentation",
+                    "slides",
+                    "client"
+                ]
+            },
+            {
+                "id": "ArAVqMuY4E4fEVZ",
+                "title": "Test New Feature",
+                "description": "Conduct thorough testing of the new feature before deployment.",
+                "tags": [
+                    "testing",
+                    "feature",
+                    "deployment"
+                ]
+            },
+            {
+                "id": "yIslxhCzfwuP6jj",
+                "title": "Resolve Bug Reports",
+                "description": "Investigate and resolve reported bugs in the latest software build.",
+                "tags": [
+                    "bugs",
+                    "investigation",
+                    "resolution"
+                ]
+            }
+        ]
+    },
+    {
+        "columnOrder": 3,
+        "status": "Completed",
+        "accentColor": "#ff5a00",
+        "taskList": [
+            {
+                "id": "2Zw6hkU8Jehsdzu",
+                "title": "Update Database Schema",
+                "description": "Implement changes to the database schema as per requirements.",
+                "tags": [
+                    "database",
+                    "schema",
+                    "implementation"
+                ]
+            },
+            {
+                "id": "2ckcg2DLNbYlUVb",
+                "title": "Schedule Team Meeting",
+                "description": "Coordinate schedules and plan the agenda for the next team meeting.",
+                "tags": [
+                    "meeting",
+                    "scheduling",
+                    "team"
+                ]
+            },
+            {
+                "id": "xiHdLMDnrdeO0Jf",
+                "title": "Deploy Application Update",
+                "description": "Deploy the latest application update to the production environment.",
+                "tags": [
+                    "deployment",
+                    "application",
+                    "production"
+                ]
+            }
+        ]
+    }
+]
