@@ -4,7 +4,10 @@ import "./Nav.css";
 const Nav = ({setisTaskFormOpen, setisColFormOpen, setoverlayShow}) => {
   return (
     <nav className="navbar">
-      <div className="navTitle">Task Management Tool</div>
+      <div className="navTitle">
+        Task Master
+        <sup>+</sup>
+      </div>
       <div className="navCTAWrapper">
         <button
           className="navTaskForm"

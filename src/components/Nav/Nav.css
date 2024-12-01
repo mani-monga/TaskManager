@@ -5,8 +5,8 @@ nav.navbar {
   top: 0;
   padding: 20px;
   justify-content: space-between;
-  background-color: white;
-  box-shadow: 0px 4px 20px 14px #d4d4d4;
+  background-color: var(--secondary);
+  box-shadow: 0px 4px 20px 14px var(--bgSecondary);
   align-items: center;
   z-index: 100;
 }
@@ -14,6 +14,11 @@ nav.navbar {
 div.navTitle {
   font-size: 2rem;
   font-weight: 700;
+  color: var(--bgSecondary);
+}
+
+div.navTitle sup {
+  color: var(--bgSecondary);
 }
 
 div.navCTAWrapper {
@@ -22,10 +27,10 @@ div.navCTAWrapper {
 }
 
 div.navCTAWrapper button {
-  background-color: blue;
+  background-color: var(--primary);
   color: #fff;
   padding: 10px 20px;
-  border: 1px solid blue;
+  border: none;
   font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -33,5 +38,5 @@ div.navCTAWrapper button {
 
 div.navCTAWrapper button:hover {
   background-color: white;
-  color: blue;
+  color: var(--primary);
 }

@@ -10,7 +10,6 @@ const TaskDetails = (props) => {
     <>
       <p className="CloseSideBar" onClick={() => props.setTaskShow(false)}>
         <ImCross />
-        <span>Close</span>
       </p>
       <div className="TaskDetailsContainer">
         <label className="TitleWrapper">

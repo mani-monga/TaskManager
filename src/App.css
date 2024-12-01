@@ -8,6 +8,14 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
   scroll-behavior: smooth;
+  color: var(--primary);
+}
+
+:root {
+  --primary: #1F4529;
+  --secondary: #47663B;
+  --bgPrimary: #EED3B1;
+  --bgSecondary: #E8ECD7;
 }
 
 *::-webkit-scrollbar {

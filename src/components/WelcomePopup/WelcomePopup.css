@@ -13,19 +13,17 @@
     z-index: 1000;
     overflow: hidden;
 }
-
+.footer-content * {
+    color: #fff;
+}
 .footer-content {
-    position: fixed;
     width: 100%;
-    bottom: 0;
-    z-index: 2;
-    background-color: #fff;
+    background-color: var(--primary);
     display: flex;
     padding: 20px 30px;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    box-shadow: 0px 4px 20px 14px #d4d4d4;
+    gap: 30px;   
 }
 
 .footer-content > div {

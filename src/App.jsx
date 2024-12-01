@@ -10,9 +10,12 @@ import TaskDetails from "./components/TaskDetails/TaskDetails";
 import { AnimatePresence, motion } from "framer-motion";
 import WelcomePopup from "./components/WelcomePopup/WelcomePopup";
 import CreditFooter from "./components/WelcomePopup/CreditFooter";
+import Loader from "./components/Loader/loader";
+
 
 function App() {
   // State initialization
+  const [loading, setloading] = useState(true);
   const [activeCard, setActiveCard] = useState(null);
   const [data, setData] = useState(JSONdata);
   const [isDraggingCardInside, setIsDraggingCardInside] = useState(false);
@@ -35,7 +38,8 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setisWelcomeMessageShown('Popup');
-    }, 200);
+      setloading(false);
+    }, 1000);
   }, []);
 
   // Function to handle drop event
@@ -75,7 +79,7 @@ function App() {
 
   return (
     <>
-
+      <Loader loading={loading}/>
       {/* Navigation component */}
       <Nav
         setisTaskFormOpen={setIsTaskFormOpen}
